@@ -4,8 +4,7 @@ import os
 
 from nltk.tokenize import sent_tokenize
 
-import torch
-from transformers import BertConfig, BertForSequenceClassification, BertTokenizerFast
+from transformers import BertForSequenceClassification, BertTokenizerFast
 
 
 MODEL_PATH = os.getcwd() + "/bert-base.pt"
